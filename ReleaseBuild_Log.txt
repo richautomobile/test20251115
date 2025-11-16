@@ -1,0 +1,193 @@
+Make--APP_START_ADDR=0x4000
+Make--APP_END_ADDR=0xFFFF
+Make--APP_SIZE_ALL=0xC000
+Make--PROJECT_PATH=
+Make--OUTPUT_PATH=./build/APP_CY8CKIT-041S-MAX/Release
+Make--LOT3_BOOT_ENABLE=0U
+Make--CONFIG=Release
+Make--CFLAGS= -Os
+Tools Directory: C:/Users/chichun.chiu/ModusToolbox/tools_3.3
+Searching installed tools in progress...
+Searching installed tools complete
+
+
+rm -rf C:/Users/chichun.chiu/data/psoc4/project/psoc4-bridge-board/code/psoc_fw_v3.3/Bridge_Board_App/build/APP_CY8CKIT-041S-MAX/Release 
+Make--APP_START_ADDR=0x4000
+Make--APP_END_ADDR=0xFFFF
+Make--APP_SIZE_ALL=0xC000
+Make--PROJECT_PATH=C:/Users/chichun.chiu/data/psoc4/project/psoc4-bridge-board/code/psoc_fw_v3.3/Bridge_Board_App
+Make--OUTPUT_PATH=./build/APP_CY8CKIT-041S-MAX/Release
+Make--LOT3_BOOT_ENABLE=0U
+Make--CONFIG=Release
+Make--CFLAGS= -Os
+Tools Directory: C:/Users/chichun.chiu/ModusToolbox/tools_3.3
+Searching installed tools in progress...
+Searching installed tools complete
+
+
+Initializing build: psoc4-bridge-board-app Release APP_CY8CKIT-041S-MAX GCC_ARM
+
+Prebuild operations complete
+
+Auto-discovery in progress...
+Auto-discovery complete
+Commencing build operations...
+
+Make--APP_START_ADDR=0x4000
+Make--APP_END_ADDR=0xFFFF
+Make--APP_SIZE_ALL=0xC000
+Make--PROJECT_PATH=C:/Users/chichun.chiu/data/psoc4/project/psoc4-bridge-board/code/psoc_fw_v3.3/Bridge_Board_App
+Make--OUTPUT_PATH=./build/APP_CY8CKIT-041S-MAX/Release
+Make--LOT3_BOOT_ENABLE=0U
+Make--CONFIG=Release
+Make--CFLAGS= -Os
+Tools Directory: C:/Users/chichun.chiu/ModusToolbox/tools_3.3
+
+Constructing build rules...
+Build rules construction complete
+
+==============================================================================
+= Building application =
+==============================================================================
+Generating compilation database file...
+-> ./build/compile_commands.json
+Compilation database file generation complete
+Building 103 file(s)
+    Compiling app file cycfg.c
+    Compiling app file cycfg_capsense.c
+    Compiling app file cycfg_clocks.c
+    Compiling app file cycfg_dmas.c
+    Compiling app file cycfg_peripherals.c
+    Compiling app file cycfg_pins.c
+    Compiling app file cycfg_routing.c
+    Compiling app file cycfg_system.c
+    Compiling app file cybsp.c
+    Compiling app file startup_psoc4100smax.c
+    Compiling app file system_cat2.c
+    Compiling app file DevEncoder.c
+    Compiling app file DevFPD983.c
+    Compiling app file DevFPD984.c
+    Compiling app file DevINA236.c
+    Compiling app file DevTPS55289.c
+    Compiling app file Gpio.c
+    Compiling app file SoftwareTimer.c
+    Compiling app file SpiMaster.c
+    Compiling app file adc.c
+    Compiling app file breath_led.c
+    Compiling app file button.c
+    Compiling app file canfd.c
+    Compiling app file crc.c
+    Compiling app file debounce.c
+    Compiling app file deep_sleep.c
+    Compiling app file dma.c
+    Compiling app file ext_int.c
+    Compiling app file flash.c
+    Compiling app file i2cm.c
+    Compiling app file i2cs.c
+    Compiling app file pwm_capture.c
+    Compiling app file quad_dec.c
+    Compiling app file swpwm_out.c
+    Compiling app file systick.c
+    Compiling app file tcpwm_out.c
+    Compiling app file uart.c
+    Compiling app file user_flash.c
+    Compiling app file wdt.c
+    Compiling app file main.c
+    Compiling app file gm_vcs.c
+    Compiling app file Aging_GM1134.c
+    Compiling app file Aging_GM3400.c
+    Compiling app file Aging_GM3500.c
+    Compiling app file BootCode.c
+    Compiling app file BridgeBoardAll.c
+    Compiling app file LongRun_GM1134.c
+    Compiling app file LongRun_GM3400.c
+    Compiling app file Testing_GM1134.c
+    Compiling app file Testing_GM3400.c
+    Compiling app file system.c
+    Compiling ext file cy_syslib_gcc.S
+    Compiling ext file cy_canfd.c
+    Compiling ext file cy_crypto_aes.c
+    Compiling ext file cy_crypto_crc.c
+    Compiling ext file cy_crypto_hw.c
+    Compiling ext file cy_crypto_sha.c
+    Compiling ext file cy_crypto_trng.c
+    Compiling ext file cy_cryptolite_aes.c
+    Compiling ext file cy_cryptolite_rsa.c
+    Compiling ext file cy_cryptolite_sha.c
+    Compiling ext file cy_cryptolite_trng.c
+    Compiling ext file cy_csd.c
+    Compiling ext file cy_ctb.c
+    Compiling ext file cy_dmac.c
+    Compiling ext file cy_flash.c
+    Compiling ext file cy_gpio.c
+    Compiling ext file cy_i2s.c
+    Compiling ext file cy_lpcomp.c
+    Compiling ext file cy_msc.c
+    Compiling ext file cy_msclp.c
+    Compiling ext file cy_sar.c
+    Compiling ext file cy_scb_common.c
+    Compiling ext file cy_scb_ezi2c.c
+    Compiling ext file cy_scb_i2c.c
+    Compiling ext file cy_scb_spi.c
+    Compiling ext file cy_scb_uart.c
+    Compiling ext file cy_seglcd.c
+    Compiling ext file cy_smartio.c
+    Compiling ext file cy_sysclk.c
+    Compiling ext file cy_sysint.c
+    Compiling ext file cy_syslib.c
+    Compiling ext file cy_syspm.c
+    Compiling ext file cy_systick.c
+    Compiling ext file cy_tcpwm_counter.c
+    Compiling ext file cy_tcpwm_pwm.c
+    Compiling ext file cy_tcpwm_quaddec.c
+    Compiling ext file cy_trigmux.c
+    Compiling ext file cy_usbfs_dev_drv.c
+    Compiling ext file cy_usbfs_dev_drv_io.c
+    Compiling ext file cy_usbfs_dev_drv_io_dma.c
+    Compiling ext file cy_usbpd_bch.c
+    Compiling ext file cy_usbpd_buck_boost.c
+    Compiling ext file cy_usbpd_config_table.c
+    Compiling ext file cy_usbpd_hpd.c
+    Compiling ext file cy_usbpd_idac_ctrl.c
+    Compiling ext file cy_usbpd_lf_counter.c
+    Compiling ext file cy_usbpd_mux.c
+    Compiling ext file cy_usbpd_phy.c
+    Compiling ext file cy_usbpd_typec.c
+    Compiling ext file cy_usbpd_vbus_ctrl.c
+    Compiling ext file cy_wdc.c
+    Compiling ext file cy_wdt.c
+    Linking output file psoc4-bridge-board-app.elf
+C:/Users/chichun.chiu/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/chichun.chiu/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg_nano.a(libc_a-closer.o): note: the message above does not take linker garbage collection into account
+C:/Users/chichun.chiu/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/chichun.chiu/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg_nano.a(libc_a-fstatr.o): note: the message above does not take linker garbage collection into account
+C:/Users/chichun.chiu/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/chichun.chiu/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg_nano.a(libc_a-isattyr.o): note: the message above does not take linker garbage collection into account
+C:/Users/chichun.chiu/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/chichun.chiu/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg_nano.a(libc_a-lseekr.o): note: the message above does not take linker garbage collection into account
+C:/Users/chichun.chiu/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/bin/ld.exe: C:/Users/chichun.chiu/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg_nano.a(libc_a-readr.o): note: the message above does not take linker garbage collection into account
+C:/Users/chichun.chiu/Infineon/Tools/mtb-gcc-arm-eabi/14.2.1/gcc/bin/arm-none-eabi-objcopy -O ihex C:/Users/chichun.chiu/data/psoc4/project/psoc4-bridge-board/code/psoc_fw_v3.3/Bridge_Board_App/build/APP_CY8CKIT-041S-MAX/Release/psoc4-bridge-board-app.elf C:/Users/chichun.chiu/data/psoc4/project/psoc4-bridge-board/code/psoc_fw_v3.3/Bridge_Board_App/build/APP_CY8CKIT-041S-MAX/Release/psoc4-bridge-board-app.hex
+C:/Users/chichun.chiu/ModusToolbox/tools_3.3/gcc/bin/arm-none-eabi-objcopy.exe -O binary ./build/APP_CY8CKIT-041S-MAX/Release/psoc4-bridge-board-app.elf ./build/APP_CY8CKIT-041S-MAX/Release/psoc4-bridge-board-app.bin && ./build/APP_CY8CKIT-041S-MAX/GenBinCRC32.exe ./build/APP_CY8CKIT-041S-MAX/Release/psoc4-bridge-board-app.bin -s 0x4000 -e 0xFFFF -o ./build/APP_CY8CKIT-041S-MAX/Release/psoc4-bridge-board-app_F.bin && ./build/APP_CY8CKIT-041S-MAX/srec_cat.exe ./build/APP_CY8CKIT-041S-MAX/Release/psoc4-bridge-board-app_F.bin -Binary -fill 0xFF 0x0000 0xC000 -offset 0x4000 -o ./build/APP_CY8CKIT-041S-MAX/Release/psoc4-bridge-board-app_F.hex -Intel -obs=16 && ./build/APP_CY8CKIT-041S-MAX/srec_cat.exe ./build/APP_CY8CKIT-041S-MAX/psoc4-bridge-board-boot_F.hex -Intel ./build/APP_CY8CKIT-041S-MAX/Release/psoc4-bridge-board-app_F.hex -Intel -o  ./build/APP_CY8CKIT-041S-MAX/Release/psoc4-bridge-board_WL_RELEASE.hex -Intel -Output_Block_Size=16 && ./build/APP_CY8CKIT-041S-MAX/srec_cat.exe ./build/APP_CY8CKIT-041S-MAX/SetFlashLock_BootLock.hex -Intel ./build/APP_CY8CKIT-041S-MAX/Release/psoc4-bridge-board_WL_RELEASE.hex -Intel -o  ./build/APP_CY8CKIT-041S-MAX/Release/psoc4-bridge-board_WL_RELEASE.hex -Intel -Output_Block_Size=16
+Completed!
+==============================================================================
+= Build complete =
+==============================================================================
+
+Calculating memory consumption: CY8C4149AZI-S598 GCC_ARM
+
+   ---------------------------------------------------- 
+  | Section Name         |  Address      |  Size       | 
+   ---------------------------------------------------- 
+  | .text                |  0x00004000   |  40548      | 
+  | .ARM.exidx           |  0x0000de64   |  8          | 
+  | .copy.table          |  0x0000de6c   |  12         | 
+  | .zero.table          |  0x0000de78   |  8          | 
+  | .ramVectors          |  0x20000000   |  192        | 
+  | .user_share_ram      |  0x200000c0   |  16         | 
+  | .data                |  0x200000d0   |  244        | 
+  | .noinit              |  0x200001c8   |  32         | 
+  | .bss                 |  0x200001e8   |  4312       | 
+  | .heap                |  0x200012c0   |  26944      | 
+  | .stack               |  0x20007c00   |  1024       | 
+   ---------------------------------------------------- 
+
+  Total Internal Flash (Available)          393216     
+  Total Internal Flash (Utilized)           40828      
+
+

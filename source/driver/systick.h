@@ -1,0 +1,36 @@
+﻿/**
+ * @file Gpio.h
+ *
+ * @brief
+ *
+ * Copyright (C) 2022 Innolux Corporation
+ * ALL RIGHTS RESERVED. No part of this publication may be copied in any form,
+ * by photocopy, microfilm, retrieval system, or by any other means now known or
+ * hereafter invented without the prior written permission of Innolux Corporation
+ *
+ * MISRA-C:2012 Deviation Type definition
+ *
+ * MISRA-2:
+ * Deviated Rule:
+ *
+ * @author BingHan (binghan.chou@innolux.com)
+ * @date 2022-11-10
+ */
+
+#ifndef _SYSTICK_H_
+#define _SYSTICK_H_
+
+/* ==[ Includes ]=========================================================== */
+#include "cy_pdl.h"
+#include "cybsp.h"
+#include "system.h"
+#include "TypeDefine.h"
+
+/* ==[ Macros ]============================================================== */
+/* ==[ Types ]=============================================================== */
+/* ==[ Variables with external linkage ]===================================== */
+/* ==[ Declaration of functions with external linkage ]====================== */
+extern t_FUNC_RETURN Systick_Init(void);
+extern t_FUNC_RETURN Systick_Disable(void);
+extern uint32_t Systick_GetMsCnt(void);
+#endif /* _SYSTICK_H_ */

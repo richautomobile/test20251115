@@ -1,0 +1,174 @@
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (7 ms)
+Loading the tools information
+Finished loading the tools information (47 ms)
+Loading the application in directory 'E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/Bridge_Board_App'
+using cached data from file 'E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/Bridge_Board_App/.mtbqueryapi'
+creating application information from 'get_app_info' data
+finished creating application information from 'get_app_info' data (16 ms)
+Finished loading the application data (75 ms total, 0 make)
+Loading asset repository references
+Finished loading the asset repository references (44 ms)
+Loading the manifest data
+Local Content mode has been enabled by settings.  Reading content from C:/Users/walker.chiang/.modustoolbox/lcs (default path).
+Loading super manfiest files from all sources
+Processing manifest pack file 'C:/Users/walker.chiang/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifest.xml'
+Downloading super manifest file 'file:///C:/Users/walker.chiang/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifest.xml'
+Getting manifests from remote and/or local sources
+Processing system manifest 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/super-manifest-fv2.xml'
+Downloading super manifest file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'file:///C:/Users/walker.chiang/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifest.xml'
+Starting to parse super manifest with URL 'file:///C:/Users/walker.chiang/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifest.xml'
+Finished parsing super manifest with URL 'file:///C:/Users/walker.chiang/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifest.xml'
+Downloading manifest file 'file:///C:/Users/walker.chiang/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifests/mtb-ml-ce-manifest.xml'
+Finished download of file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/super-manifest-fv2.xml'
+Downloading manifest file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/capabilities-manifest.json'
+Downloading manifest file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/app-manifest.xml'
+Downloading manifest file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/dependencies-manifest.xml'
+Downloading manifest file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/board-manifest.xml'
+Downloading manifest file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/middleware-manifest.xml'
+Finished download of file 'file:///C:/Users/walker.chiang/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifests/mtb-ml-ce-manifest.xml'
+Finished download of file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/capabilities-manifest.json'
+Finished download of file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/app-manifest.xml'
+Finished download of file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/dependencies-manifest.xml'
+Finished download of file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/board-manifest.xml'
+Finished download of file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/middleware-manifest.xml'
+Finished loading the manifest data (70 ms)
+Starting to refresh dependencies for project 'psoc4-bridge-board-app'.
+Refreshed all dependencies for project 'psoc4-bridge-board-app'.
+0 error(s), 0 warning(s)
+Successfully acquired the information.
+
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (7 ms)
+Loading the tools information
+Finished loading the tools information (47 ms)
+Loading the application in directory 'E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/Bridge_Board_App'
+using cached data from file 'E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/Bridge_Board_App/.mtbqueryapi'
+creating application information from 'get_app_info' data
+finished creating application information from 'get_app_info' data (16 ms)
+Finished loading the application data (75 ms total, 0 make)
+Loading asset repository references
+Finished loading the asset repository references (44 ms)
+Loading the manifest data
+Local Content mode has been enabled by settings.  Reading content from C:/Users/walker.chiang/.modustoolbox/lcs (default path).
+Loading super manfiest files from all sources
+Processing manifest pack file 'C:/Users/walker.chiang/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifest.xml'
+Downloading super manifest file 'file:///C:/Users/walker.chiang/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifest.xml'
+Getting manifests from remote and/or local sources
+Processing system manifest 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/super-manifest-fv2.xml'
+Downloading super manifest file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'file:///C:/Users/walker.chiang/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifest.xml'
+Starting to parse super manifest with URL 'file:///C:/Users/walker.chiang/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifest.xml'
+Finished parsing super manifest with URL 'file:///C:/Users/walker.chiang/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifest.xml'
+Downloading manifest file 'file:///C:/Users/walker.chiang/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifests/mtb-ml-ce-manifest.xml'
+Finished download of file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/super-manifest-fv2.xml'
+Downloading manifest file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/capabilities-manifest.json'
+Downloading manifest file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/app-manifest.xml'
+Downloading manifest file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/dependencies-manifest.xml'
+Downloading manifest file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/board-manifest.xml'
+Downloading manifest file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/middleware-manifest.xml'
+Finished download of file 'file:///C:/Users/walker.chiang/ModusToolbox/packs/ModusToolbox-Machine-Learning-Pack/manifests/mtb-ml-ce-manifest.xml'
+Finished download of file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/capabilities-manifest.json'
+Finished download of file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/app-manifest.xml'
+Finished download of file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/dependencies-manifest.xml'
+Finished download of file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/board-manifest.xml'
+Finished download of file 'file:///C:/Users/walker.chiang/.modustoolbox/lcs/manifests-v2.X/middleware-manifest.xml'
+Finished loading the manifest data (70 ms)
+Starting to refresh dependencies for project 'psoc4-bridge-board-app'.
+Refreshed all dependencies for project 'psoc4-bridge-board-app'.
+0 error(s), 0 warning(s)
+Successfully acquired the information.Updating application "Bridge_Board_App" ...
+Starting to commit changes to the filesystem and project 'psoc4-bridge-board-app'.
+Git#0>Starting: git -C E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/mtb_shared/device-db/release-v4.11.1 -c advice.detachedHead=false checkout --progress release-v4.11.1
+Git#1>Starting: git -C E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/mtb_shared/cmsis/release-v5.8.0 -c advice.detachedHead=false checkout --progress release-v5.8.0
+Git#2>Starting: git -C E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/mtb_shared/core-lib/release-v1.4.1 -c advice.detachedHead=false checkout --progress release-v1.4.1
+Git#3>Starting: git -C E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/mtb_shared/core-make/release-v3.3.1 -c advice.detachedHead=false checkout --progress release-v3.3.1
+HEAD is now at
+Git#2> a74be8b Upload core-lib [1796]
+Git#2>Success: git -C E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/mtb_shared/core-lib/release-v1.4.1 -c advice.detachedHead=false checkout --progress release-v1.4.1
+Finished processing core-lib
+Git#4>Starting: git -C E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/mtb_shared/mtb-pdl-cat2/release-v2.8.0 -c advice.detachedHead=false checkout --progress release-v2.8.0
+Git#3>HEAD is now at 58bf444 Upload core-make 3.3.1.5153 [2252]
+Git#3>Success: git -C E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/mtb_shared/core-make/release-v3.3.1 -c advice.detachedHead=false checkout --progress release-v3.3.1
+Finished processing core-make
+Git#5>Starting: git -C E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/mtb_shared/recipe-make-cat2/release-v2.2.0 -c advice.detachedHead=false checkout --progress release-v2.2.0
+Git#1>HEAD is now at ce02f64 Upload cmsis 5.8.0.50
+Git#1>Success: git -C E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/mtb_shared/cmsis/release-v5.8.0 -c advice.detachedHead=false checkout --progress release-v5.8.0
+Finished processing cmsis
+Git#5>HEAD is now at 22e2ac0 Upload recipe-make-cat2 2.2.0.5066 [2215]
+Git#5>Success: git -C E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/mtb_shared/recipe-make-cat2/release-v2.2.0 -c advice.detachedHead=false checkout --progress release-v2.2.0
+Finished processing recipe-make-cat2
+Git#4>HEAD is now at d1e2e35 Upload mtb-pdl-cat2 2.8.0.11364 [2187]
+Git#4>Success: git -C E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/mtb_shared/mtb-pdl-cat2/release-v2.8.0 -c advice.detachedHead=false checkout --progress release-v2.8.0
+Finished processing mtb-pdl-cat2
+Git#0>HEAD is now at 7c000f21 Upload device-db 4.11.1.5194 [2216]
+Git#0>Success: git -C E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/mtb_shared/device-db/release-v4.11.1 -c advice.detachedHead=false checkout --progress release-v4.11.1
+Finished processing device-db
+Successfully committed changes to the project 'psoc4-bridge-board-app'.
+0 error(s), 0 warning(s)
+Successfully updated application "Bridge_Board_App"
+Updating Launch Configurations ...
+Calling "make eclipse" ...
+Make--APP_START_ADDR=0x4000
+Make--APP_END_ADDR=0xFFFF
+Make--APP_SIZE_ALL=0xC000
+Make--PROJECT_PATH=E:\GitLabRepos\psoc4-bridge-board\code\psoc_fw_v3.3\Bridge_Board_App\
+Make--OUTPUT_PATH=./build/APP_CY8CKIT-041S-MAX/
+Make--LOT3_BOOT_ENABLE=0U
+Make--CONFIG=
+Make--CFLAGS= -Os
+Tools Directory: C:/Users/walker.chiang/ModusToolbox/tools_3.3
+Searching installed tools in progress...
+Searching installed tools complete
+Initializing build: psoc4-bridge-board-app  APP_CY8CKIT-041S-MAX GCC_ARM
+Prebuild operations complete
+Auto-discovery in progress...
+Auto-discovery complete
+Commencing build operations...
+Make--APP_START_ADDR=0x4000
+Make--APP_END_ADDR=0xFFFF
+Make--APP_SIZE_ALL=0xC000
+Make--PROJECT_PATH=E:\GitLabRepos\psoc4-bridge-board\code\psoc_fw_v3.3\Bridge_Board_App\
+Make--OUTPUT_PATH=./build/APP_CY8CKIT-041S-MAX/
+Make--LOT3_BOOT_ENABLE=0U
+Make--CONFIG=
+Make--CFLAGS= -Os
+Tools Directory: C:/Users/walker.chiang/ModusToolbox/tools_3.3
+Constructing build rules...
+Build rules construction complete
+==============================================================================
+= Building application =
+==============================================================================
+Generating compilation database file...
+-> ./build/compile_commands.json
+Compilation database file generation complete
+Generated E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/Bridge_Board_App/.cproject
+Generated E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/Bridge_Board_App/.project
+Generated E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/Bridge_Board_App/.mtbLaunchConfigs/Bridge_Board_App Attach (KitProg3_MiniProg4).launch
+Generated E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/Bridge_Board_App/.mtbLaunchConfigs/Bridge_Board_App Debug (KitProg3_MiniProg4).launch
+Generated E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/Bridge_Board_App/.mtbLaunchConfigs/Bridge_Board_App Erase (KitProg3_MiniProg4).launch
+Generated E:/GitLabRepos/psoc4-bridge-board/code/psoc_fw_v3.3/Bridge_Board_App/.mtbLaunchConfigs/Bridge_Board_App Program (KitProg3_MiniProg4).launch
+
+Instructions:
+1. Open Eclipse IDE for ModusToolbox
+2. Select 'Import Existing Application In-Place' from the QuickPanel
+3. Browse to the application root directory
+
+For more information, refer to the Eclipse IDE for ModusToolbox user guide.
+
+"make eclipse" succeeded
+
+Starting to refresh dependencies for project 'psoc4-bridge-board-app'.
+Refreshed all dependencies for project 'psoc4-bridge-board-app'.
+
+Summary:
+Successfully updated application "Bridge_Board_App"
+Successfully refreshed dependencies.
+Done.

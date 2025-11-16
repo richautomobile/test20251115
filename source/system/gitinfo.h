@@ -1,0 +1,7 @@
+#ifndef GITINFO_H
+#define GITINFO_H
+#define BUILD_DATE 2025-11-13_15-39-43
+#define GIT_DATE 2025-11-13_08-29-00
+#define GIT_BRANCH master
+#define GIT_HASH af5e96899e7664879aa90a42034adc66d465fb25
+#endif
