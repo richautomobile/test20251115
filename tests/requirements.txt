@@ -1,0 +1,32 @@
+# Core testing framework
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-html==4.1.1
+pytest-xdist==3.5.0
+pytest-timeout==2.2.0
+pytest-mock==3.12.0
+
+# For C/Python bindings
+cffi==1.16.0
+pycparser==2.21
+
+# Code coverage and reporting
+coverage==7.3.4
+coverage-badge==1.1.0
+
+# Mocking and fixtures
+faker==22.0.0
+factory-boy==3.3.0
+
+# Assertions and utilities
+pytest-assume==2.4.3
+pytest-benchmark==4.0.0
+
+# Serial communication (for hardware testing)
+pyserial==3.5
+
+# Data validation
+jsonschema==4.20.0
+
+# Logging and debugging
+colorlog==6.8.0
