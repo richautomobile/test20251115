@@ -1,0 +1,34 @@
+# Robot Framework core
+robotframework==6.1.1
+robotframework-seleniumlibrary==6.1.3
+robotframework-sshlibrary==3.8.0
+
+# Serial communication for hardware testing
+robotframework-seriallibrary==0.4.0
+pyserial==3.5
+
+# Database support
+robotframework-databaselibrary==1.2.4
+
+# HTTP/REST API testing
+robotframework-requests==0.9.4
+requests==2.31.0
+
+# Test data handling
+robotframework-datadriver==1.8.1
+robotframework-excellib==0.0.1
+openpyxl==3.1.2
+
+# Reporting and metrics
+robotframework-metrics==3.3.3
+robotframework-pabot==2.16.0  # Parallel execution
+
+# Custom libraries
+robotframework-pythonlibcore==4.2.0
+
+# Utilities
+PyYAML==6.0.1
+Jinja2==3.1.2
+
+# Integration with pytest mocks
+cffi==1.16.0
