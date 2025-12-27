@@ -1,0 +1,66 @@
+# Test Variables and Configuration
+# These variables can be loaded into Robot Framework tests
+
+device_config:
+  name: "PSoC4 Development Board"
+  target: "CY8CKIT-041S-MAX"
+  firmware_version: "1.0.0"
+
+i2c_devices:
+  - address: 0x50
+    name: "EEPROM"
+    memory_size: 256
+  - address: 0x51
+    name: "Temperature Sensor"
+    memory_size: 16
+  - address: 0x52
+    name: "RTC"
+    memory_size: 64
+
+test_patterns:
+  zeros: "\\x00\\x00\\x00\\x00"
+  ones: "\\xFF\\xFF\\xFF\\xFF"
+  alternating: "\\xAA\\x55\\xAA\\x55"
+  increment: "\\x00\\x01\\x02\\x03"
+
+adc_test_points:
+  - voltage: 0.0
+    expected: 0
+    name: "Zero scale"
+  - voltage: 0.825
+    expected: 1024
+    name: "Quarter scale"
+  - voltage: 1.65
+    expected: 2048
+    name: "Mid scale"
+  - voltage: 2.475
+    expected: 3072
+    name: "Three-quarter scale"
+  - voltage: 3.3
+    expected: 4095
+    name: "Full scale"
+
+pwm_frequencies:
+  - 100
+  - 1000
+  - 10000
+  - 50000
+
+pwm_duty_cycles:
+  - 0
+  - 25
+  - 50
+  - 75
+  - 100
+
+gpio_pins:
+  inputs: [0, 1, 2]
+  outputs: [3, 4, 5]
+  bidirectional: [6, 7]
+
+qualification_params:
+  burn_in_cycles: 1000
+  stress_test_duration: 3600
+  power_cycle_count: 100
+  communication_retry_limit: 3
+  acceptable_error_rate: 0.01

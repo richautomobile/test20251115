@@ -1,0 +1,87 @@
+# Robot Framework Configuration File
+# Defines default settings for test execution
+
+# Test execution settings
+test_execution:
+  output_directory: results
+  log_level: INFO
+  report_title: "PSoC4 Qualification Test Report"
+  report_background: "#FFFFFF"
+
+# Test data
+test_data:
+  data_directory: test_data
+  results_directory: results
+  logs_directory: logs
+
+# Device Under Test (DUT) configuration
+dut:
+  name: "PSoC4 Development Board"
+  target: "CY8CKIT-041S-MAX"
+  firmware_version: "1.0.0"
+  serial_port: "/dev/ttyUSB0"
+  baudrate: 115200
+  timeout: 5
+
+# Peripheral configurations
+peripherals:
+  i2c:
+    bus_id: 0
+    speed: 400000  # 400kHz
+    default_device: 0x50
+
+  spi:
+    bus_id: 0
+    speed: 1000000  # 1MHz
+    mode: 0
+
+  adc:
+    channels: [0, 1, 2, 3]
+    resolution: 12
+    vref: 3.3
+
+  pwm:
+    channels: [0, 1]
+    default_frequency: 1000
+    default_duty: 50
+
+  canfd:
+    bus_id: 0
+    baudrate: 500000
+
+  gpio:
+    input_pins: [0, 1, 2]
+    output_pins: [3, 4, 5]
+
+  flash:
+    size: 65536  # 64KB
+    page_size: 256
+
+# Test thresholds and limits
+thresholds:
+  adc_tolerance: 50  # ADC counts
+  voltage_tolerance: 0.1  # Volts
+  timing_tolerance: 0.05  # 5% timing tolerance
+  temperature_min: -40  # Celsius
+  temperature_max: 85   # Celsius
+
+# Qualification test parameters
+qualification:
+  burn_in_cycles: 1000
+  stress_test_duration: 3600  # seconds
+  power_cycle_count: 100
+  communication_retry_limit: 3
+  acceptable_error_rate: 0.01  # 1%
+
+# Parallel execution settings
+parallel:
+  enabled: false
+  processes: 4
+
+# Reporting
+reporting:
+  generate_log: true
+  generate_report: true
+  generate_xunit: true
+  generate_metrics: true
+  screenshot_on_failure: true
